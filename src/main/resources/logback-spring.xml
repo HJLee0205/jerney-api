@@ -30,6 +30,8 @@
             <appender-ref ref="CONSOLE"/>
             <!--            <appender-ref ref="dailyRollingFileAppender"/>-->
         </logger>
+        <logger name="org.springframework.boot" level="WARN" />
+        <logger name="org.springframework.web" level="DEBUG" />
 
         <logger name="com.zaxxer.hikari" level="INFO" additivity="false"/>
         <logger name="jdbc" level="OFF" />
